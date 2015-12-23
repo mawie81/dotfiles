@@ -84,8 +84,13 @@ for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 done;
 unset file;
 
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 ###-tns-completion-start-###
 #if [ -f /Users/marwi/.tnsrc ]; then
 #    source /Users/marwi/.tnsrc
 #fi
 ###-tns-completion-end-###
+
+[ -s "/Users/marwi/.dnx/dnvm/dnvm.sh" ] && . "/Users/marwi/.dnx/dnvm/dnvm.sh" # Load dnvm
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
