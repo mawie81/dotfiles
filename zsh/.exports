@@ -3,4 +3,4 @@ export DOCKER_CERT_PATH=~/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
 export GOPATH=$HOME/go
 export ANDROID_HOME=$HOME/AndroidSDK
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/go/bin:$GOPATH/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
+export PATH=$PATH:"/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/heroku/bin:/usr/local/go/bin:$GOPATH/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
