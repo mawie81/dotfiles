@@ -92,5 +92,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 #fi
 ###-tns-completion-end-###
 
-[ -s "/Users/marwi/.dnx/dnvm/dnvm.sh" ] && . "/Users/marwi/.dnx/dnvm/dnvm.sh" # Load dnvm
+[ -s "$HOME/.dnx/dnvm/dnvm.sh" ] && . "/$HOME/.dnx/dnvm/dnvm.sh" # Load dnvm
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
