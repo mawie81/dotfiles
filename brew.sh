@@ -18,8 +18,30 @@ brew upgrade --all
 brew install git
 brew install openssl
 brew install ant
+brew install node
 brew install nvm
 brew install zsh
+brew install diff-so-fancy
+brew install maven
+brew install mongodb
+brew install yarn
+
+
+# Casks
+brew cask install 1password
+brew cask install iterm2
+brew cask install google-chrome
+brew cask install firefox
+brew cask install visual-studio-code
+brew cask install fork
+brew cask install intellij-idea
+brew cask install sequel-pro
+brew cask install mattermost
+brew cask install docker
+brew cask install gpg-suite
+brew cask install postman
+brew cask install robo-3t
+brew cask install sublime-text
 
 # Remove outdated versions from the cellar.
 brew cleanup
