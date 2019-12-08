@@ -9,8 +9,11 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias db="cd ~/projects/devboxes"
 alias p="cd ~/projects"
-alias pa="cd ~/projects/partnerarea"
+alias pa="cd ~/projects/partner/partnerarea"
 alias g="git"
+
+# replace rm by trash-cli
+#alias rm=trash
 
 # git aliases
 alias gc="git commit -m $1"
@@ -18,6 +21,7 @@ alias gs="git status"
 alias gp="git pull"
 alias gf="git fetch"
 alias gpush="git push"
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # npm aliases
 alias ni="npm install"
