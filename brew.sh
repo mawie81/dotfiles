@@ -19,12 +19,14 @@ brew install git
 brew install openssl
 brew install ant
 brew install node
-brew install nvm
+brew install nodenv
 brew install zsh
 brew install diff-so-fancy
 brew install maven
 brew install mongodb
 brew install yarn
+brew install elixir
+brew install jesseduffield/lazygit/lazygit
 
 
 # Casks
@@ -42,6 +44,7 @@ brew cask install gpg-suite
 brew cask install postman
 brew cask install robo-3t
 brew cask install sublime-text
+brew cask install vlc
 
 # Remove outdated versions from the cellar.
 brew cleanup

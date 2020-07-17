@@ -52,7 +52,7 @@ plugins=(git alias-tips z)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/.nvm/nvm.sh
+#source $HOME/.nvm/nvm.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -93,8 +93,8 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 ###-tns-completion-end-###
 
 [ -s "$HOME/.dnx/dnvm/dnvm.sh" ] && . "/$HOME/.dnx/dnvm/dnvm.sh" # Load dnvm
-[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
-
+#[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+eval "$(nodenv init -)"
 export PATH="$HOME/.yarn/bin:$PATH"
 ###-begin-npm-completion-###
 #
@@ -153,3 +153,4 @@ elif type compctl &>/dev/null; then
   compctl -K _npm_completion npm
 fi
 ###-end-npm-completion-###
+source <(kubectl completion zsh)
