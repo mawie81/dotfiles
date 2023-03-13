@@ -1,15 +1,12 @@
 [core]
 	excludesfile = /Users/marwi/.gitignore_global
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+	pager = delta
+[delta]
+	features = side-by-side line-numbers decorations
 [user]
 	name = Marcel Wiehle
 	email = marwi@spreadshirt.net
-	signingkey = DE16F7B5D9E4E61E
+	signingkey = 8CF2FCEE72E0CCA5
 [filter "media"]
 	required = true
 	clean = git media clean %f
@@ -39,3 +36,4 @@
 #	tool = opendiff	
 [commit]
 	template = /Users/marwi/.stCommitMsg
+	gpgsign = true

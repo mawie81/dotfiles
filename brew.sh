@@ -25,26 +25,30 @@ brew install diff-so-fancy
 brew install maven
 brew install mongodb
 brew install yarn
-brew install elixir
 brew install jesseduffield/lazygit/lazygit
 
 
 # Casks
-brew cask install 1password
-brew cask install iterm2
-brew cask install google-chrome
-brew cask install firefox
-brew cask install visual-studio-code
-brew cask install fork
-brew cask install intellij-idea
-brew cask install sequel-pro
-brew cask install mattermost
-brew cask install docker
-brew cask install gpg-suite
-brew cask install postman
-brew cask install robo-3t
-brew cask install sublime-text
-brew cask install vlc
+brew install --cask 1password
+brew install --cask iterm2
+brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask visual-studio-code
+brew install --cask fork
+brew install --cask intellij-idea
+brew install --cask sequel-ace
+brew install --cask mattermost
+brew install --cask docker
+brew install --cask gpg-suite
+brew install --cask postman
+brew install --cask robo-3t
+brew install --cask keepingyouawake
+brew install --cask raycast
+brew install --cask ngrok
+brew install --cask vivaldi
+brew install --cask microsoft-teams
+brew install --cask microsoft-outlook
+brew install --cask warp
 
 # Remove outdated versions from the cellar.
 brew cleanup
