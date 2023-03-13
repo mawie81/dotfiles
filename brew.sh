@@ -23,7 +23,6 @@ brew install nodenv
 brew install zsh
 brew install diff-so-fancy
 brew install maven
-brew install mongodb
 brew install yarn
 brew install jesseduffield/lazygit/lazygit
 
